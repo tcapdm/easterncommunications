@@ -1,0 +1,72 @@
+/**
+* This style used for overriding styles
+* Contains css properties, new and overrides
+*/
+
+ul.pagination {
+	z-index: 9;
+}
+
+ul.news-list li[data-article_id]
+{
+	list-style: none;
+}
+
+ul.tabNav li,
+ul.footer-link li,
+ul.latest-posts_ul li,
+ul.social-media li,
+{
+	list-style: none;
+}
+
+.front .section-heading-text li[class^="set"]{
+    overflow: hidden;
+    line-height: 45px;
+}
+.front .section-heading-text li[class^="set"] span[class^="icon"],
+.front .section-heading-text li[class^="set"] span[class^="fa"]{
+    display: block;
+    width: 50px;
+    height: 45px;
+    float: left;
+}
+
+.products-heading-desc .section-heading-text span.icon-internet-icon {
+    padding-top:12px;
+    padding-left: 14px;
+}
+
+.products-heading-desc .section-heading-text span.icon-data-icon {
+    padding-top:12px;
+    padding-left: 13px;
+}
+
+.products-heading-desc .section-heading-text span.icon-managed-services-icon {
+    padding-top:12px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 320px){
+    .front .section-heading-text li[class^="set"]{
+        overflow: hidden;
+        line-height: 30px;
+    }
+    .front .section-heading-text li[class^="set"] span[class^="icon"],
+    .front .section-heading-text li[class^="set"] span[class^="fa"]{
+        display: block;
+        width: 40px;
+        height: 38px;
+        float: left;
+    }
+
+    .products-heading-desc .section-heading-text span.icon-internet-icon,
+    .products-heading-desc .section-heading-text span.icon-data-icon {
+        padding-top:10px;
+        padding-left: 11px;
+    }
+    .products-heading-desc .section-heading-text span.icon-managed-services-icon {
+        padding-top:11px;
+        padding-left:8px;
+    }
+}

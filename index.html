@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Eastern Communications</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/preloader.min.css">
+<style>
+section {position: relative; height: 100vh; border: solid 1px red;}
+/*section .svg-wrap {position: absolute;}*/
+.home .svg-wrap {right: 0; bottom: 0; width: 52%;}
+.products .svg-wrap {bottom: 0; left: 0; width: 52%;}
+.news .svg-wrap {top: 0; left: 0; width: 67.5%;}
+.contact .svg-wrap {top: 0; right: 0; width: 75.8%;}
+	/* homepage svg banner */
+	.svg-wrap{position: absolute; padding-bottom: 40%; width: 50%;}
+	.svg{display: block; position: absolute; top: 0; left: 0; stroke: #888;}
+	#svg_path1{fill: url(#pattern1);}
+	#svg_path2{fill: url(#pattern2);}
+	#svg_path3{fill: url(#pattern3);}
+	#svg_path4{fill: url(#pattern4);}
+	.svg_path-mask {fill: url(#pattern-mask); opacity: .9;}
+</style>
+</head>
+<body>
+
+	<!-- 
+	#home>.slide-item-inner>.slide-item-inner-content>.slide-image.__right-bottom
+	#products>.slide-item-inner>.slide-item-inner-content>.slide-image.__left-bottom
+	#news>.slide-item-inner>.slide-item-inner-content>.slide-image.__left-top
+	#contact>.slide-item-inner>.slide-item-inner-content>.slide-image.__right-top
+	 -->
+
+	<!-- # HOME -->
+	<section class="home">
+		<div class="svg-wrap">
+			<svg class="svg" viewBox="0 0 818 630">
+				<!-- svg outline -->
+				<path id="svg_path1" d="M782,806l33.786-107.631,192.5-118.629-4.72-105.274,153.22-74.635,69.92-95.06L1336,172l66-3,120.93,82.348L1607,325.983V802.459Z" transform="translate(-782 -169)"/>
+				<path class="svg_path-mask" d="M782,806l33.786-107.631,192.5-118.629-4.72-105.274,153.22-74.635,69.92-95.06L1336,172l66-3,120.93,82.348L1607,325.983V802.459Z" transform="translate(-782 -169)"/>
+					<defs>
+						<!-- svg slide image -->
+						<pattern id="pattern1" x="0" y="0" width="1" height="1">
+							<image xlink:href="img/slide1.jpg" preserveAspectRatio="xMinYMin slice" width="100%" height="100%"/>
+						</pattern>
+				</defs>
+			</svg>
+		</div>
+	</section>
+
+
+	<!-- # PRODUCTS -->
+	<section class="products">
+		<div class="svg-wrap">
+			<svg class="svg" viewBox="0 0 827 799">
+				<!-- svg outline -->
+				<path id="svg_path2" d="M-1,804H784l-17-17,60-231L627,439,481,181,39,29-5-2Z"/>
+				<path class="svg_path-mask" d="M-1,804H784l-17-17,60-231L627,439,481,181,39,29-5-2Z"/>
+					<defs>
+						<!-- svg slide image -->
+						<pattern id="pattern2" x="0" y="0" width="1" height="1">
+							<image xlink:href="img/slide2.jpg" preserveAspectRatio="xMinYMin slice" width="100%" height="100%"/>
+						</pattern>
+				</defs>
+			</svg>
+		</div>
+	</section>
+
+	<!-- # NEWS -->
+	<section class="news">
+		<div class="svg-wrap">
+			<svg class="svg" viewBox="0 0 1065.94 665.281">
+				<!-- svg outline -->
+			  <path id="svg_path3" d="M-2.818,308.465l49.562,96.412,109.939,61.271L387.374,665.279l254.12-162.188L756.84,514.8,875.79,329.19l153.19-175.7L1065.93-5.1-2.818-3.3V308.465Z"/>
+			  <path class="svg_path-mask" d="M-2.818,308.465l49.562,96.412,109.939,61.271L387.374,665.279l254.12-162.188L756.84,514.8,875.79,329.19l153.19-175.7L1065.93-5.1-2.818-3.3V308.465Z"/>
+					<defs>
+						<!-- svg slide image -->
+						<pattern id="pattern3" x="0" y="0" width="1" height="1">
+							<image xlink:href="img/slide3.jpg" preserveAspectRatio="xMinYMin slice" width="100%" height="100%"/>
+						</pattern>
+				</defs>
+			</svg>
+		</div>
+		
+	</section>
+
+	<!-- # CONTACT -->
+	<section class="contact">
+		<div class="svg-wrap">
+			<svg class="svg" viewBox="0 0 1198 560">
+				<!-- svg outline -->
+				<path id="svg_path4" d="M1600.78,397.937l-24.46,72.591L1384.82,510.2l-66.65-35.451L1124.98,560l-58.21-124.079L910.7,451.114,768.974,281.454,677.863,303.4,585.909,170.88,494.8,114.327,402,67.9V-3H1605Z" transform="translate(-402)"/>
+				<path class="svg_path-mask" d="M1600.78,397.937l-24.46,72.591L1384.82,510.2l-66.65-35.451L1124.98,560l-58.21-124.079L910.7,451.114,768.974,281.454,677.863,303.4,585.909,170.88,494.8,114.327,402,67.9V-3H1605Z" transform="translate(-402)"/>
+					<defs>
+						<!-- svg slide image -->
+						<pattern id="pattern4" x="0" y="0" width="1" height="1">
+							<image xlink:href="img/slide4.jpg" preserveAspectRatio="xMinYMin slice" width="100%" height="100%"/>
+						</pattern>
+						<!-- svg slide mask -->
+						<pattern id="pattern-mask" x="0" y="0" width="1" height="1">
+							<image class="pattern-mask_img" preserveAspectRatio="xMinYMin slice" width="200%" height="200%" />
+						</pattern>
+				</defs>
+			</svg>
+		</div>
+		
+	</section>
+
+<!-- homepage svg banner -->
+		
+
+
+<!-- page preloader -->
+<div id="loading"><div id="loading-center"><div id="loading-center-absolute"><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div><div class="object"></div></div></div></div>		
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+	var preloader = document.getElementById('loading');
+	fadeOut(preloader)
+	function fadeOut(preloader){
+		preloader.style.opacity = 1;
+		(function fade() {
+		if ((preloader.style.opacity -= .1) < 0) {
+			preloader.style.display = "none";
+		} else {
+			requestAnimationFrame(fade);
+		}
+		})();
+	}
+	});
+</script>
+
+<!-- trianglify -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.0.1/trianglify.min.js"></script>
+<script>
+	var pattern_mask_img = document.querySelector('.pattern-mask_img');
+	var pattern = Trianglify({
+		height: 1200,
+		width: 800,
+		stroke_width: 68,
+		cell_size: 40
+	});	
+	pattern_mask_img.setAttribute('href', pattern.png());
+</script>
+
+</body>
+</html>

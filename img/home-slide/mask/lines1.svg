@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="472.19" height="368.75" viewBox="0 0 472.19 368.75">
+  <defs>
+    <style>
+      .slide1-line{
+        fill: #15061e;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="lines1.svg" class="slide1-line" d="M689.958,337.124l0.741-.256L816.712,701.507l-0.741.256Zm-0.6-.576,0.193-.55,468.582,64.387,1.05,0.77Zm2.52,1.907,0.4-.6L1011.78,580.692l-0.56.5ZM690,333a3,3,0,1,1-3,3A3,3,0,0,1,690,333Z" transform="translate(-687 -333)"/>
+</svg>
